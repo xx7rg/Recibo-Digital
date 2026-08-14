@@ -12,7 +12,7 @@ Uma interface interativa que transforma a confirmação de pagamento em um momen
 
 </div>
 
-![Apresentação da experiência x7rG Enterprise](public/og.png)
+![Recibo pronto na experiência x7rG Enterprise](docs/screenshots/03-ready.png)
 
 ## Mais do que imitar uma impressora
 
@@ -46,9 +46,9 @@ A direção visual combina dourado, marfim, preto e verde. O dourado reforça o 
 
 ## Capturas de tela
 
-| Pronto para imprimir | Imprimindo | Recibo pronto | Recibo cortado |
-|---|---|---|---|
-| ![Estado inicial](docs/screenshots/01-idle.png) | ![Imprimindo](docs/screenshots/02-printing.png) | ![Recibo pronto](docs/screenshots/03-ready.png) | ![Recibo cortado](docs/screenshots/04-torn.png) |
+| Pronto para imprimir | Imprimindo | Recibo cortado |
+|---|---|---|
+| ![Estado inicial](docs/screenshots/01-idle.png) | ![Imprimindo](docs/screenshots/02-printing.png) | ![Recibo cortado](docs/screenshots/04-torn.png) |
 
 Mais detalhes e contexto de cada estado em [docs/APRESENTACAO.md](docs/APRESENTACAO.md).
 
