@@ -75,8 +75,8 @@ tests/
 Requisitos: Node.js 22.13+ e npm.
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd x7rg-enterprise-recibo-digital
+git clone https://github.com/xx7rg/Recibo-Digital.git
+cd Recibo-Digital
 npm install
 npm run dev
 ```
