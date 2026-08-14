@@ -8,7 +8,7 @@
 
 Uma interface interativa que transforma a confirmação de pagamento em um momento de marca: impressão simulada, movimento do papel, luz, som e acabamento premium — tudo dentro do navegador.
 
-[Instalação](#executar-localmente) · [Arquitetura](#arquitetura-do-projeto) · [Documentação completa](docs/APRESENTACAO.md)
+[Ver experiência publicada](https://x7rg-enterprise-recibo-digital.contato-rgsantos.workers.dev) · [Instalação](#executar-localmente) · [Arquitetura](#arquitetura-do-projeto) · [Documentação completa](docs/APRESENTACAO.md)
 
 </div>
 
