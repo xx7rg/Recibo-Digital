@@ -14,7 +14,7 @@ Uma interface interativa que transforma a confirmação de pagamento em um momen
 ![Web Audio API](https://img.shields.io/badge/Web_Audio-API-D9485F?style=for-the-badge&logo=webauthn&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-online-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
-[Ver experiência publicada](https://x7rg-enterprise-recibo-digital.contato-rgsantos.workers.dev) · [Instalação](#executar-localmente) · [Arquitetura](#arquitetura-do-projeto) · [Documentação completa](docs/APRESENTACAO.md)
+[Ver experiência publicada](https://recibo-digital.contato-rgsantos.workers.dev) · [Instalação](#executar-localmente) · [Arquitetura](#arquitetura-do-projeto) · [Documentação completa](docs/APRESENTACAO.md)
 
 </div>
 

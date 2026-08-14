@@ -8,6 +8,10 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "x7rG Enterprise — Recibo digital",
   description: "Una experiencia de impresión digital para celebrar un trabajo bien hecho.",
+  icons: {
+    icon: "/favicon-x7rg.png",
+    shortcut: "/favicon-x7rg.png",
+  },
   openGraph: {
     title: "x7rG Enterprise — Recibo digital",
     description: "Una pequeña prueba de un gran trabajo.",
