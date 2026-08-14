@@ -2,7 +2,7 @@
 
 <img src="public/x7rg-enterprise-emblem.png" alt="Logo oficial x7rG Enterprise" width="180" />
 
-# Digital Receipt Experience by: x7rG Enterprise
+# Digital Receipt Experience - x7rG Enterprise
 
 ### Quando até um recibo deixa de ser burocracia e passa a ser experiência.
 
