@@ -8,6 +8,12 @@
 
 Uma interface interativa que transforma a confirmação de pagamento em um momento de marca: impressão simulada, movimento do papel, luz, som e acabamento premium — tudo dentro do navegador.
 
+![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-Responsivo-663399?style=for-the-badge&logo=css&logoColor=white)
+![Web Audio API](https://img.shields.io/badge/Web_Audio-API-D9485F?style=for-the-badge&logo=webauthn&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-online-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+
 [Ver experiência publicada](https://x7rg-enterprise-recibo-digital.contato-rgsantos.workers.dev) · [Instalação](#executar-localmente) · [Arquitetura](#arquitetura-do-projeto) · [Documentação completa](docs/APRESENTACAO.md)
 
 </div>
