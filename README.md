@@ -302,15 +302,18 @@ Depois do envio, o GitHub renderizará automaticamente este README, suas imagens
 
 O código pode receber a licença escolhida pelo proprietário antes da publicação pública. O nome, o emblema e os materiais de identidade da **x7rG Enterprise** permanecem vinculados aos seus respectivos titulares e não devem ser reutilizados sem autorização.
 
-## Autoria
+---
 
-Desenvolvido por **x7rG Enterprise** — [@_7Ragnar](https://www.instagram.com/_7ragnar/) · [LinkedIn](https://www.linkedin.com/in/rgds/)
+<p align="center"><strong>Tecnologia, identidade e experiência em cada detalhe.</strong></p>
 
 ---
 
 <div align="center">
 
-**x7rG Enterprise**
-Tecnologia, identidade e experiência em cada detalhe.
+**© 2026 x7rG ENTERPRISE™** — Todos os direitos reservados.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rgds)
+&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/_7ragnar/)
 
 </div>
