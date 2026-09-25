@@ -84,6 +84,8 @@ export default function Home() {
 
   return (
     <main className="page-shell">
+      {/* Efeito mecânico sem fala ou conteúdo que necessite de legendas. */}
+      {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
       <audio ref={printAudio} src="/printer-print.wav" preload="auto" />
       <header className="topbar">
         <a className="brand" href="#top" aria-label="x7rG Enterprise, inicio">

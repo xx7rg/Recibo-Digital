@@ -234,13 +234,15 @@ vite.config.ts                # configuração de compilação
 ### Instalação
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
-npm install
+git clone https://github.com/xx7rg/Recibo-Digital.git
+cd Recibo-Digital
+npm ci
 npm run dev
 ```
 
-O terminal exibirá o endereço local que deve ser aberto no navegador.
+O terminal exibirá o endereço local que deve ser aberto no navegador. Os
+scripts usam `cross-env`, portanto os mesmos comandos funcionam no PowerShell,
+no Prompt de Comando do Windows e em terminais POSIX, como Bash e Zsh.
 
 ### Produção
 
@@ -270,23 +272,25 @@ Edite `app/globals.css`. Os tempos da animação visual e dos temporizadores de 
 
 Substitua os arquivos em `public/`, preservando os nomes utilizados pelo componente ou atualizando seus caminhos no código.
 
-## Publicar no GitHub
+## Contribuir com o projeto
 
-1. Crie um repositório vazio no GitHub.
-2. Extraia o ZIP do projeto (ou clone o repositório existente).
-3. Abra um terminal na pasta do projeto.
-4. Execute:
+O comando de instalação acima já clona o repositório existente e configura
+`origin` automaticamente. Não execute `git init` nem adicione outro `origin`
+dentro desse clone.
+
+Para desenvolver uma alteração, crie uma branch a partir da pasta
+`Recibo-Digital`:
 
 ```bash
-git init
+git switch -c minha-alteracao
 git add .
-git commit -m "Publica experiência de recibo digital x7rG Enterprise"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-git push -u origin main
+git commit -m "Descreve a alteração"
+git push -u origin minha-alteracao
 ```
 
-Depois do envio, o GitHub renderizará automaticamente este README, suas imagens, tabelas e diagramas.
+O envio exige permissão no repositório. Colaboradores sem acesso direto devem
+criar um fork no GitHub, clonar o endereço do próprio fork e então abrir um
+pull request para `xx7rg/Recibo-Digital`.
 
 ## Próximos passos possíveis
 
