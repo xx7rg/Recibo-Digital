@@ -17,7 +17,7 @@
     "react-dom": "19.3.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.60.1",
+    "@cloudflare/vite-plugin": "1.62.1",
     "@eslint/js": "9.39.4",
     "@next/eslint-plugin-next": "16.2.6",
     "@tailwindcss/postcss": "4.2.1",
@@ -38,12 +38,12 @@
     "typescript-eslint": "8.59.3",
     "vinext": "1.0.0-beta.12",
     "vite": "8.3.1",
-    "wrangler": "4.140.0"
+    "wrangler": "4.143.1"
   },
   "type": "module",
   "allowScripts": {
     "sharp@0.35.4": true,
-    "workerd@1.20260923.1": true,
+    "workerd@1.20260926.1": true,
     "esbuild@0.28.1": true
   }
 }
