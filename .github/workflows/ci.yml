@@ -31,5 +31,4 @@ jobs:
       - name: Auditar dependências de produção
         run: npm audit --omit=dev --audit-level high
       - name: Auditar ferramentas de desenvolvimento
-        continue-on-error: true
-        run: npm audit --audit-level high
+        run: npm run audit:dev

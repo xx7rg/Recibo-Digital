@@ -266,12 +266,24 @@ O CI executa `npm ci`, lint e `npm test`, que compila a aplicação e verifica
 a página servida pelo Worker local. Alertas altos ou críticos em dependências
 de produção bloqueiam a validação.
 
-A auditoria completa também aparece no CI, mas é informativa enquanto as
-ferramentas de desenvolvimento dependem de `braces` 3.0.3. Em 3 de outubro de
-2026, essa dependência gera sete alertas altos na árvore de desenvolvimento
-e ainda não possui versão corrigida para
-[GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm).
-Essa pendência deve ser revista quando uma correção estiver disponível.
+### Proteção local de `braces`
+
+Como `braces` 3.0.3 ainda não possui versão oficial corrigida para
+[GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm),
+o projeto aplica `patches/braces+3.0.3.patch` automaticamente no `postinstall`.
+O patch limita a profundidade do parser e dos percursos recursivos, rejeitando
+padrões excessivamente aninhados antes do estouro de pilha. A instalação falha
+se o patch não puder ser aplicado.
+
+`npm run test:security` verifica padrões normais, entradas com 4.000 níveis e
+árvores fornecidas diretamente às funções de compilação, expansão e conversão
+em texto. Esses testes também fazem parte de `npm test`.
+
+`npm run audit:dev` exige que os testes de segurança passem e aceita somente
+esse alerta específico, coberto pelo patch. Qualquer outro alerta bloqueia o CI.
+O `npm audit` original ainda lista a vulnerabilidade porque consulta a versão
+publicada e não analisa o código corrigido localmente. Quando houver uma versão
+oficial corrigida, o patch e essa exceção específica devem ser removidos.
 
 ## Personalização
 
