@@ -4,6 +4,8 @@
 
 # Digital Receipt Experience - x7rG Enterprise
 
+[![CI](https://github.com/xx7rg/Recibo-Digital/actions/workflows/ci.yml/badge.svg)](https://github.com/xx7rg/Recibo-Digital/actions/workflows/ci.yml)
+
 ### Quando até um recibo deixa de ser burocracia e passa a ser experiência.
 
 Uma interface interativa que transforma a confirmação de pagamento em um momento de marca: impressão simulada, movimento do papel, luz, som e acabamento premium — tudo dentro do navegador.
@@ -257,6 +259,19 @@ npm run start
 npm run lint     # verifica a qualidade do código
 npm test         # builda e roda os testes automatizados
 ```
+
+## Validação automática e segurança
+
+O CI executa `npm ci`, lint e `npm test`, que compila a aplicação e verifica
+a página servida pelo Worker local. Alertas altos ou críticos em dependências
+de produção bloqueiam a validação.
+
+A auditoria completa também aparece no CI, mas é informativa enquanto as
+ferramentas de desenvolvimento dependem de `braces` 3.0.3. Em 3 de outubro de
+2026, essa dependência gera sete alertas altos na árvore de desenvolvimento
+e ainda não possui versão corrigida para
+[GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm).
+Essa pendência deve ser revista quando uma correção estiver disponível.
 
 ## Personalização
 
